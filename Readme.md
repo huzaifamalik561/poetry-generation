@@ -24,7 +24,7 @@ Getting Started
 
 **Clone the repository:**
 
-git clone https://github.com/your-username/poem-generator.git
+git clone https://github.com/huzaifamalik561/poetry-generation.git
 
 **Install the required dependencies:**
 
