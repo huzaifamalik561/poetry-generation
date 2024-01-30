@@ -1,8 +1,9 @@
-#Poem Generator
-##Overview
+**Poem Generator**
+
+**Overview**
 The Poem Generator is a web application built using Flask and the Transformers library that generates poems based on user input. The application uses pre-trained GPT-2 models for different poets (Shakespeare and Keats) and genres (Angry, Love, Sad) to create unique and creative poems. Additionally, the application utilizes an external service to convert generated text into an image.
 
-##Table of Contents
+**Table of Contents**
 Getting Started
 Usage
 File Structure
@@ -11,20 +12,22 @@ Docker Support
 Acknowledgments
 License
 Getting Started
-Clone the repository:
+
+**Clone the repository:**
 
 git clone https://github.com/your-username/poem-generator.git
 
-Install the required dependencies:
+**Install the required dependencies:**
 
 cd poem-generator
 pip install -r requirements.txt
-Run the application:
+
+**Run the application:**
 
 python main.py
 The application will be accessible at http://localhost:5000.
 
-##Usage
+**Usage**
 Open your web browser and navigate to http://localhost:5000.
 Enter a title, select a poet (Shakespeare or Keats), and choose a genre (Angry, Love, Sad).
 Click the "Generate Poem and Image" button.
@@ -45,7 +48,7 @@ All models: Directory containing pre-trained GPT-2 models for different poets an
 -Dockerfile: Docker configuration file for containerizing the application.
 -requirements.txt: List of Python dependencies.
 
-##Dependencies
+**Dependencies**
 -torch==2.1.2
 -torchvision==0.16.2
 -Flask==3.0.1
@@ -56,19 +59,19 @@ All models: Directory containing pre-trained GPT-2 models for different poets an
 
 This application can be containerized using Docker. Ensure you have Docker installed, then follow these steps:
 
-Build the Docker image:
+**Build the Docker image:**
 
 docker build -t poem-generator:latest .
 
-Run the Docker container:
+**Run the Docker container:**
 
 docker run -p 5000:5000 poem-generator:latest
 The application will be accessible at http://localhost:5000.
 
-##Acknowledgments
+**Acknowledgments**
 This project uses the GPT-2 models from the Transformers library by Hugging Face.
 
-##License
+**License**
 This project is licensed under the MIT License.
 
 Feel free to contribute, report issues, or suggest improvements. For accessing the pre-trained GPT-2 models, please download them from the following Google Drive link: https://drive.google.com/drive/folders/1jUYsMms-kXp-a8XLCAnd1TtXzm_xdkxi?usp=sharing
