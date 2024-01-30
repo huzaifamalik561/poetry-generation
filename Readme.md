@@ -58,11 +58,17 @@ All models: Directory containing pre-trained GPT-2 models for different poets an
 
 **Dependencies**
 -torch==2.1.2
+
 -torchvision==0.16.2
+
 -Flask==3.0.1
+
 -transformers==4.35.0
+
 -pandas==2.1.4
+
 -Pillow==9.4.0
+
 -Docker Support
 
 This application can be containerized using Docker. Ensure you have Docker installed, then follow these steps:
