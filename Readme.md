@@ -16,6 +16,8 @@ Dependencies
 
 Docker Support
 
+CLIP API
+
 Acknowledgments
 
 License
@@ -104,6 +106,12 @@ docker build -t poem-generator:latest .
 docker run -p 5000:5000 poem-generator:latest
 
 The application will be accessible at http://localhost:5000.
+
+## CLIP API
+
+Go to https://clipdrop.co/apis and get your API key and write it at: 
+
+                         ** headers={'x-api-key': 'your_API'})**
 
 ## **Acknowledgments**
 
