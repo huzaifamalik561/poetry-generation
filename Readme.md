@@ -6,7 +6,7 @@ The Poem Generator is a web application built using Flask and the Transformers l
 
 ## **Table of Contents**
 
-Getting Started
+##Getting Started
 
 Usage
 
