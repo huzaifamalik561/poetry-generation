@@ -41,17 +41,24 @@ Enter a title, select a poet (Shakespeare or Keats), and choose a genre (Angry, 
 Click the "Generate Poem and Image" button.
 View the generated poem and associated image.
 File Structure
-All models: Directory containing pre-trained GPT-2 models for different poets and genres.
--Angry_shakespeare
--Angry_keats
--Sad_keats
--Sad_shakespeare
--Love_keats
--Love_shakespeare
+
+-All models: Directory containing pre-trained GPT-2 models for different poets and genres.
+---Angry_shakespeare
+
+---Angry_keats
+
+---Sad_keats
+
+---Sad_shakespeare
+
+---Love_keats
+
+---Love_shakespeare
+
 -Templates: HTML templates for the Flask application.
---index.html
+---index.html
 -Static: Static files such as stylesheets.
---style.css
+---style.css
 -main.py: Flask application code for generating poems and handling user input.
 -Dockerfile: Docker configuration file for containerizing the application.
 -requirements.txt: List of Python dependencies.
