@@ -4,13 +4,21 @@
 The Poem Generator is a web application built using Flask and the Transformers library that generates poems based on user input. The application uses pre-trained GPT-2 models for different poets (Shakespeare and Keats) and genres (Angry, Love, Sad) to create unique and creative poems. Additionally, the application utilizes an external service to convert generated text into an image.
 
 **Table of Contents**
+
 Getting Started
+
 Usage
+
 File Structure
+
 Dependencies
+
 Docker Support
+
 Acknowledgments
+
 License
+
 Getting Started
 
 **Clone the repository:**
