@@ -56,11 +56,16 @@ File Structure
 ---Love_shakespeare
 
 -Templates: HTML templates for the Flask application.
+
 ---index.html
 -Static: Static files such as stylesheets.
+
 ---style.css
+
 -main.py: Flask application code for generating poems and handling user input.
+
 -Dockerfile: Docker configuration file for containerizing the application.
+
 -requirements.txt: List of Python dependencies.
 
 **Dependencies**
