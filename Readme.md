@@ -10,7 +10,7 @@ Getting Started
 
 Usage
 
-##File Structure##
+File Structure
 
 Dependencies
 
