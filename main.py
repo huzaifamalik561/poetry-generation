@@ -92,7 +92,7 @@ def index():
 
         r = requests.post('https://clipdrop-api.co/text-to-image/v1',
                           files={'prompt': (None, prompt_for_image, 'text/plain')},
-                          headers={'x-api-key': 'your_API'})
+                          headers={'x-api-key': 'e43effb77b348c0bb7f168ed5e26563486a2d8e8856212900e067f8084b38cccb769bfd627e577159f7be67411dc604f'})
 
         if r.ok:
             image_generated = True
