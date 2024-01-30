@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'poetry-generation'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7E2A4A59A17F4C5EAC7868AA8EE7ECE4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C5EB329AF6D84794982386D9D8D183DA }}
