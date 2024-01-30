@@ -50,6 +50,7 @@ View the generated poem and associated image.
 File Structure
 
 -All models: Directory containing pre-trained GPT-2 models for different poets and genres.
+
 ---Angry_shakespeare
 
 ---Angry_keats
