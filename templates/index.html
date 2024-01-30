@@ -1,0 +1,51 @@
+<!-- index.html -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poem Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Poem Generator</h1>
+        </header>
+
+        <section class="form-section">
+            <form method="POST" action="/" enctype="multipart/form-data">
+                <label for="title">Enter Title:</label>
+                <input type="text" id="title" name="title" required><br>
+
+                <label for="poet">Select Poet:</label>
+                <select id="poet" name="poet" required>
+                    <option value="shakespeare">Shakespeare</option>
+                    <option value="keats">Keats</option>
+                </select><br>
+
+                <label for="genre">Select Genre:</label>
+                <select id="genre" name="genre" required>
+                    <option value="angry">Angry</option>
+                    <option value="love">Love</option>
+                    <option value="sad">Sad</option>
+                </select><br>
+
+                <button type="submit">Generate Poem and Image</button>
+            </form>
+        </section>
+
+        {% if image_generated %}
+            <div class="content-container">
+                <div class="poem-container">
+                    <h2>Generated Poem:</h2>
+                    <p class="formatted-poem">{{ original_poem }}</p>
+                </div>
+                <img class="generated-image" src="{{ url_for('static', filename='generated_image.png') }}" alt="Generated Image">
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
